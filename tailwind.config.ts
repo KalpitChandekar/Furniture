@@ -8,9 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors: {},
+      backgroundColor: {
+        hero: "#35736E",
+        yellow: "#F9BF29",
       },
     },
   },
