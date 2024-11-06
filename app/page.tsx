@@ -1,4 +1,10 @@
+import Navbar from "./Navbar";
+
 const page = () => {
-  return <div className="">page</div>;
+  return (
+    <div className="bg-hero">
+      <Navbar />
+    </div>
+  );
 };
 export default page;
