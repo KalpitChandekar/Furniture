@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        gray: "#C4C4C4",
+        yellow: "#F9BF29",
+      },
       backgroundColor: {
-        hero: "#35736E",
+        hero: "#3B5D50",
         yellow: "#F9BF29",
       },
     },
