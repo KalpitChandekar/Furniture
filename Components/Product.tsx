@@ -4,7 +4,7 @@ import Image from "next/image";
 const Product = () => {
   return (
     <div
-      className="max-w-6xl mx-auto my-28 flex md:flex-row flex-col justify-between px-4
+      className="max-w-6xl mx-auto my-32 flex md:flex-row flex-col justify-between px-4
     "
     >
       <div className="space-y-8 max-w-60">
