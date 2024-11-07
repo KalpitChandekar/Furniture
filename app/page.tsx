@@ -2,6 +2,7 @@ import Hero from "@/Components/Hero";
 import Navbar from "../Components/Navbar";
 import Product from "@/Components/Product";
 import WhyChooseUs from "@/Components/WhyChooseUs";
+import Design from "@/Components/Design";
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       </div>
       <Product />
       <WhyChooseUs />
+      <Design/>
     </div>
   );
 };
