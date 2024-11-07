@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Design = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 my-40 flex md:flex-row flex-col items-center justify-center gap-72">
+    <div className="max-w-6xl mx-auto px-4 my-40 flex md:flex-row flex-col items-center justify-center gap-64">
       <div className="relative">
         <Image
           src="/design-1.png"
