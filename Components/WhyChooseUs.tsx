@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
       <div className="space-y-16">
         <div className="space-y-4">
           <h1 className="text-black text-3xl font-semibold">Why Choose Us</h1>
-          <p className="text-sm">
+          <p className="text-sm text-paragraph">
             Donec mattis porta eros, aliquet finibus risus interdum at. Nulla{" "}
             <br />
             vivethe as it was for us to know what was to be done. the

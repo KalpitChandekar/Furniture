@@ -38,7 +38,7 @@ const Design = () => {
           <h1 className="text-black text-3xl font-semibold">
             We help you make Modern Interior Design{" "}
           </h1>
-          <p className="text-sm">
+          <p className="text-sm text-paragraph">
             Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
             vivethe as it was for us to know what was to be done. the this is a
             long post for the text.`This small text has to be place here, since
