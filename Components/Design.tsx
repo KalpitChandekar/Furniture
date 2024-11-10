@@ -45,61 +45,15 @@ const Design = () => {
             this is a place holder. You can also chane it.
           </p>
         </div>
-        {/* <div className="grid md:grid-cols-2 grid-cols-1 gap-x-20 gap-y-14">
-          <div className="space-y-2 max-w-60">
-            <div className="relative">
-              <Truck size={24} className="" />
-              <div className="h-6 w-6 rounded-full bg-bg absolute top-2 left-2"></div>
-            </div>
-            <h1 className="text-black text-lg font-semibold">
-              Fast & Free Shipping
-            </h1>
-            <p className="text-sm text-paragraph">
-              Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
-              vivethe as it was
-            </p>
-          </div>
-
-          <div className="space-y-2 max-w-60">
-            <div className="relative">
-              <ShoppingBag size={24} className="" />
-              <div className="h-6 w-6 rounded-full bg-bg absolute top-2 left-2"></div>
-            </div>
-            <h1 className="text-black text-lg font-semibold">Easy to Shop</h1>
-            <p className="text-sm text-paragraph">
-              Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
-              vivethe as it was
-            </p>
-          </div>
-
-          <div className="space-y-2 max-w-60">
-            <div className="relative">
-              <Timer size={24} className="" />
-              <div className="h-6 w-6 rounded-full bg-bg absolute top-2 left-2"></div>
-            </div>
-            <h1 className="text-black text-lg font-semibold">
-              24/7 Customer Support
-            </h1>
-            <p className="text-sm text-paragraph">
-              Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
-              vivethe as it was
-            </p>
-          </div>
-
-          <div className="space-y-2 max-w-60">
-            <div className="relative">
-              <Undo2 size={24} className="" />
-              <div className="h-6 w-6 rounded-full bg-bg absolute top-2 left-2"></div>
-            </div>
-            <h1 className="text-black text-lg font-semibold">
-              Fast & Free Shipping
-            </h1>
-            <p className="text-sm text-paragraph">
-              Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
-              vivethe as it was
-            </p>
-          </div>
-        </div> */}
+        <ul className="grid md:grid-cols-2 grid-cols-1 gap-x-20 gap-y-14 text-paragraph text-sm">
+          <p>Donec mattis porta eros,let aliquet finibus ri</p>
+          <p>Donec mattis porta eros,let aliquet finibus ri</p>
+          <p>Donec mattis porta eros,let aliquet finibus ri</p>
+          <p>Donec mattis porta eros,let aliquet finibus ri</p>
+        </ul>
+        <button className="text-white px-6 py-2 rounded-full bg-black">
+          Explore
+        </button>
       </div>
     </div>
   );
