@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import Product from "@/Components/Product";
 import WhyChooseUs from "@/Components/WhyChooseUs";
 import Design from "@/Components/Design";
+import Testimonial from "@/Components/Testimonial";
 
 const page = () => {
   return (
@@ -13,7 +14,8 @@ const page = () => {
       </div>
       <Product />
       <WhyChooseUs />
-      <Design/>
+      <Design />
+      <Testimonial />
     </div>
   );
 };
