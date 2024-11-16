@@ -4,6 +4,7 @@ import Product from "@/Components/Product";
 import WhyChooseUs from "@/Components/WhyChooseUs";
 import Design from "@/Components/Design";
 import Testimonial from "@/Components/Testimonial";
+import Blog from "@/Components/Blog";
 
 const page = () => {
   return (
@@ -16,6 +17,7 @@ const page = () => {
       <WhyChooseUs />
       <Design />
       <Testimonial />
+      <Blog />
     </div>
   );
 };
