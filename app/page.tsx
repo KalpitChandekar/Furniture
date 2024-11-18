@@ -5,6 +5,8 @@ import WhyChooseUs from "@/Components/WhyChooseUs";
 import Design from "@/Components/Design";
 import Testimonial from "@/Components/Testimonial";
 import Blog from "@/Components/Blog";
+import Subscribe from "@/Components/Subscribe";
+import Footer from "@/Components/Footer";
 
 const page = () => {
   return (
@@ -18,6 +20,10 @@ const page = () => {
       <Design />
       <Testimonial />
       <Blog />
+      <div className="bg-white">
+        <Subscribe />
+        <Footer />
+      </div>
     </div>
   );
 };
